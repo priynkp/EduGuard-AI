@@ -1,0 +1,15 @@
+# MediaPipe face model - downloaded automatically on first run, do not commit
+face_landmarker.task
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db

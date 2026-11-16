@@ -23,15 +23,14 @@ signals.
 ## Project structure
 
 ```text
-EduGuard/
-├── AI_Student_code.ipynb
-├── live_eduguard.py
-├── video_telemetry.csv
-├── system_events.csv
+EduGuard-AI/
+├── eduguard-training.ipynb       # ML training + evaluation notebook
+├── live_eduguard.py              # live webcam/mic/keyboard demo
+├── video_telemetry.csv           # synthetic training telemetry
+├── system_events.csv             # synthetic tab-switch events
 ├── requirements_live_eduguard.txt
-├── face_landmarker.task          # created automatically on first run
 ├── README.md
-└── .gitignore
+└── .gitignore                    # excludes face_landmarker.task, downloaded on first run
 ```
 
 ## Machine-learning pipeline
@@ -160,3 +159,4 @@ disciplinary system. Real deployments should include:
 - Session event logging and review dashboard
 - Model calibration and cross-validation
 - More representative, consented training data
+
